@@ -1,0 +1,13 @@
+{
+  "algorithm": "RandomForestClassifier",
+  "hyperparameters": {
+    "n_estimators": 200,
+    "max_depth": 6,
+    "random_state": 42
+  },
+  "training_rows": 241,
+  "test_rows": 61,
+  "test_accuracy": 0.7705,
+  "scikit_learn_version": "1.9.1",
+  "dataset": "Heart Disease Dataset (Kaggle, johnsmith88) - duplicates removed"
+}
