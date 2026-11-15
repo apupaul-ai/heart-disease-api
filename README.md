@@ -6,8 +6,8 @@ saved with `joblib`, served with FastAPI, packaged with Docker and deployed on R
 
 > Educational project - not a medical tool.
 
-**Live URL (Render):** `https://<your-service-name>.onrender.com`  <!-- replace after deploying -->
-**Swagger UI:** `https://<your-service-name>.onrender.com/docs`
+**Live URL (Render):** `https://heart-disease-api-8jfd.onrender.com`  <!-- replace after deploying -->
+**Swagger UI:** `https://heart-disease-api-8jfd.onrender.com/docs`
 
 ---
 
@@ -147,7 +147,7 @@ Invoke-RestMethod -Method Post -Uri http://localhost:8000/predict -ContentType "
    - Under *Advanced*, set **Health Check Path** to `/health`
 4. Click **Create Web Service**. Render builds the Dockerfile and starts the container.
    It provides a `PORT` environment variable and the container's start command already listens on it.
-5. When the deploy is live, open `https://<your-service>.onrender.com/docs` and test the endpoints.
+5. When the deploy is live, open `https://heart-disease-api-8jfd.onrender.com/docs` and test the endpoints.
 
 Note: on the free plan the service sleeps after ~15 minutes without traffic, so the first request afterwards can
 take 30-60 seconds.
